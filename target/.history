@@ -1,0 +1,16 @@
+run com.the-ica.kafka.MTMProducer
+exit
+compile
+;reload; set org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers" ;*/*:dumpStructureTo /private/var/folders/sr/vcrcf0j9609_4qxpst6b85bh0000gn/T/sbt-structure.xml
+;reload; set org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers" ;*/*:dumpStructureTo /private/var/folders/sr/vcrcf0j9609_4qxpst6b85bh0000gn/T/sbt-structure1.xml
+all {file:/Users/samklr/code/ica/streaming_aggregator_poc/}streaming_aggregator_poc/products {file:/Users/samklr/code/ica/streaming_aggregator_poc/}streaming_aggregator_poc/test:products
+run com.the-ica.stream.kafka.MTMProducer
+quit
+exit
+all {file:/Users/samklr/code/ica/streaming_aggregator_poc/}streaming_aggregator_poc/products {file:/Users/samklr/code/ica/streaming_aggregator_poc/}streaming_aggregator_poc/test:products
+run 
+run
+compile
+run
+;reload; set org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers" ;*/*:dumpStructureTo /private/var/folders/sr/vcrcf0j9609_4qxpst6b85bh0000gn/T/sbt-structure.xml
+all {file:/Users/samklr/code/ica/streaming_aggregator_poc/}streaming_aggregator_poc/products {file:/Users/samklr/code/ica/streaming_aggregator_poc/}streaming_aggregator_poc/test:products
